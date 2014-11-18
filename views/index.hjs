@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event CheckIn</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  
+  
+    
+  
+    <h1>Event Check In</h1>
+    <p>Welcome to Event , Sign In </p>
+    
+    <form id='checkIn'>
+      <div id="errors"></div>
+      <input id ="name" type="text" />
+      <input id ="email" type="email" />
+      <input type="submit" value="Submit" />
+    </form>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src='/socket.io/socket.io.js'></script>
+  
+    <script src='/javascripts/checkin2.js'></script>
+  </body>
+</html>

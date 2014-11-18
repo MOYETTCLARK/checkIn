@@ -1,0 +1,28 @@
+
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  
+}
+
+#errors {
+  display: none;
+  background: #f99; 
+   margin: 0 auto 20px;
+  padding: 8px;
+}
+
+
+
+input {
+  display: block;
+  width: 400px;
+  margin-bottom: 20px;
+  padding: 10px;
+  
+}
+  
+input.error {
+  border: 2px solid red;
+}
